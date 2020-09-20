@@ -3,6 +3,10 @@ web server 網站伺服器
 
 WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞的需求，成為網路上最常見的傳播方式，web server 為提供此網路資訊瀏覽服務的終端設備。
 
+
+![nginx architecture](https://raw.githubusercontent.com/QueenieCplusplus/Nginx_WWW/master/nginx_architecture.png)
+
+
 web server 現在不僅僅提供資訊瀏覽/查詢功能，還發展四種功能：
 
 * 運算效能
@@ -26,9 +30,6 @@ web server 現在不僅僅提供資訊瀏覽/查詢功能，還發展四種功�
   實施步驟簡單，部署快速。
 
 # 請求處理
-
-
-# 伺服器架構
 
 
 # 處理程序
