@@ -74,7 +74,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
     
   * thread 執行緒
   
-  When a process starts, it is assigned memory and resources. Each thread in the process shares that memory and resources. In single-threaded processes, the process contains one thread. The process and the thread are one and the same, and there is only one thing happening.
+    When a process starts, it is assigned memory and resources. Each thread in the process shares that memory and resources. In single-threaded processes, the process contains one thread. The process and the thread are one and the same, and there is only one thing happening.
 
 
 # 快取機制
