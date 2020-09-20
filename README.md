@@ -6,7 +6,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
 
 ![nginx architecture](https://raw.githubusercontent.com/QueenieCplusplus/Nginx_WWW/master/nginx_architecture.png)
 
-nginx web server architecture 說明：
+# nginx web server architecture 說明：
 
 伺服器啟動後，產生一個主處理程序 Master Process => 設定檔解析、資料結構初始化、模組註冊、網路監聽
 
@@ -15,7 +15,7 @@ nginx web server architecture 說明：
 請求處理中（用戶請求動態網站的一過程）=>『Nginx 伺服器』與『後端伺服器』之間通訊，前者將請求透過 Cache 傳到後端伺服器，後端伺服器處理請求，即進行資料處理和頁面組織，然後將結果回傳。
 
 
-web server 現在不僅僅提供資訊瀏覽/查詢功能，還發展四種功能：
+# web server 現在不僅僅提供資訊瀏覽/查詢功能，還發展四種功能：
 
 * 運算效能
 
