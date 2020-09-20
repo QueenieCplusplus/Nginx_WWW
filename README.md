@@ -56,6 +56,8 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   
   * Master - Workers
   
+    主處理程序藉由 fork 函數，產生了工作處理程序。
+  
   * Worker - Worker
 
 
