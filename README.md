@@ -68,6 +68,8 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
     
       client 接收方發送請求予伺服器接受請求後的傳回結果，雙方彼此都不等待結果，可以繼續進行其它工作任務，IO 操作完成後，伺服器等待完成狀態和結果通知 client 接收方，client 接收方再回應發送方 server。（甚至比同步阻塞還有效率）
       
+      圖片引用出處：https://luminousmen.com/post/asynchronous-programming-blocking-and-non-blocking
+      
      * 同步阻塞
      
        client 端發送請求後，等待回應，不做任何其它工作 ; server 端處理請求的 IO 如果無法馬上獲得結果，會等待，直到傳回結果，
