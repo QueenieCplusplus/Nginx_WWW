@@ -44,7 +44,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   請求處理中（用戶請求動態網站的一過程）=>『Nginx 伺服器』與『後端伺服器』之間通訊，前者將請求透過 Cache 傳到後端伺服器，後端伺  服器處理請求，即進行資料處理和頁面組織，然後將結果回傳。
   
   
-  * multi-thread, 多執行緒
+  * multi-thread (worker-thread), 多執行緒
   
      多執行緒和多處理程序方式相似，是指 server 每接受到一用戶端 client 時，會由伺服器的 Master Process 衍生出
      thread 出來和 client 互動。
