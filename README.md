@@ -108,6 +108,8 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
     
   * Thread 執行緒
   
+    ![single thread](https://raw.githubusercontent.com/QueenieCplusplus/Nginx_WWW/master/single-thread.png)
+  
     When a process starts, it is assigned memory and resources. Each thread in the process shares that memory and resources. In single-threaded processes, the process contains one thread. The process and the thread are one and the same, and there is only one thing happening.
     
   * Event Listening Loop 事件聆聽的循環模式
