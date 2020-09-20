@@ -57,6 +57,9 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   * Master - Workers
   
     主處理程序藉由 fork 函數，產生了工作處理程序。 Nginx 伺服器啟動後，Master Process 根據設定檔決定產生的 Worker Process 數量，然後建立一張 Gloabal 工作處理程序表，用於儲存目前尚未退出的所有 Worker Processes。
+    
+    入表紀錄的工作處理程序與主處理程序間行程一個單向管線 Pipeline，由主處理程序指向工作處理程序：
+    內容包含了 指令、工作處理程序的id、表終索引、必要檔案描述符號。
   
   * Worker - Worker
 
