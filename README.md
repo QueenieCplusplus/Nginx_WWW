@@ -56,7 +56,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   
     主處理程序與外界透過訊號（電磁波）溝通。
   
-  處理程序間的互動，均依賴管線 Channel | Pipeline:
+    而處理程序間的互動，則依賴管線 Channel | Pipeline:
   
   * Master - Workers
   
