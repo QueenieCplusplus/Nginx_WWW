@@ -72,7 +72,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
     同上，工作處理程序間也是透過管線互動，但是由於工作管理程序彼此間是隔開的，因此彼此溝通，尚需要透過主管理程序。
     主處理程序透過表來區別工作處理程序的id，並且傳遞該工作處理程序的管線控制碼予其他需要與之溝通的工作處理程序。
     
-  * thread 執行緒
+  * Thread 執行緒
   
     When a process starts, it is assigned memory and resources. Each thread in the process shares that memory and resources. In single-threaded processes, the process contains one thread. The process and the thread are one and the same, and there is only one thing happening.
 
