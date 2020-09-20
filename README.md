@@ -48,6 +48,8 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   
      多執行緒和多處理程序方式相似，是指 server 每接受到一用戶端 client 時，會由伺服器的 Master Process 衍生出
      thread 出來和 client 互動。
+     
+     ![multithreads](https://raw.githubusercontent.com/QueenieCplusplus/Nginx_WWW/master/multi-threads.png)
 
      由於作業系統產生 thread 的負擔遠遠小於產生一個 process 的負擔，所以能減輕伺服器對系統資源的要求。然而也有缺點，
      因為多執行緒位於同一處理程序內，但是彼此間會競奪記憶體空間，相互產生影響，倘若開發者在釋放資源和回收資源上沒有做好
