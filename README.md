@@ -96,13 +96,19 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
      流程如下：
      
      
-         Event Occurs =>
+         Event Occurs 
+         
+                    =>
 
-                     Msg Log from Run-Loop => 
+                      Msg Log from Run-Loop 
+                     
+                                          => 
 
-                                          Observer rcv the Msg Log => 
+                                            Observer rcv the Msg Log 
+                                          
+                                                                 => 
 
-                                                                     Execute ...
+                                                                    Execute ...
 
 
 # 快取機制
