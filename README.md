@@ -96,7 +96,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
   
     而處理程序間的互動，則依賴管線 Channel | Pipeline:
   
-  * Master 主程序 - Workers 工作程序
+  * Master 主程序 - Workers 工作程序 (| Master-Slave)
   
     主處理程序藉由 fork 函數，產生了工作處理程序。 Nginx 伺服器啟動後，Master Process 根據設定檔決定產生的 Worker Process 數量，然後建立一張 Gloabal 工作處理程序表，用於儲存目前尚未退出的所有 Worker Processes。
     
