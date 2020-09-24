@@ -176,3 +176,7 @@ WWW 技術解決了遠端資訊中的資料連接、資訊顯示、影像傳遞�
    ![cache manager](https://raw.githubusercontent.com/QueenieCplusplus/Nginx_WWW/master/cache%20table.png)
 
    快取索引管理程序則是負責對中繼資料是否過期進行判斷。
+
+# 覆寫功能
+
+https://github.com/QueenieCplusplus/Nginx_Backend
